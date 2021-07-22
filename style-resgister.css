@@ -1,0 +1,57 @@
+body{
+	background: url(image/pexels.jpeg);
+}
+#form-resgister{
+	padding: 50px 10px;
+	width: 500px;
+	min-height: 100px;
+	background: white;
+	margin: 0px auto;
+	margin-top: 150px;
+	border-radius: 20px;
+}
+#form-resgister h3{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 2em;	
+	font-family: sans-serif;
+}
+#form-resgister #txtuserid,#form-resgister #txtusername,#form-resgister #txtfullname,#form-resgister #txtpassword,#form-resgister #txtemail,#form-resgister #txtphonenumber,#form-resgister #txtimage{
+	display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+#form-resgister #txtuserid:focus,#form-resgister #txtusername:focus,#form-resgister #txtfullname:focus,#form-resgister #txtpassword:focus,#form-resgister #txtemail:focus,#form-resgister #txtphonenumber:focus,#form-resgister #txtimage:focus{
+	background: #ddd;
+	color: black;
+}
+#form-resgister #btn-resgister{
+	background: green;
+    color: white;
+    border: 0px;
+    padding: 10px 30px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 80%;
+}
+#form-resgister #btn-resgister:hover{
+	background: black;
+	cursor: pointer;
+}
+#form-resgister #btn-resgister{
+	background: green;
+    color: white;
+    border: 0px;
+    padding: 20px 60px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 85%;
+}
+#form-resgister #btn-resgister:hover{
+	background: black;
+	cursor: pointer;
+}
